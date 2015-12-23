@@ -1,0 +1,159 @@
+body .background{
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  opacity: 0.8;
+}
+body .boxes {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .boxes .box {
+  box-sizing: border-box;
+  height: 60px;
+  width: 40px;
+}
+body .boxes .box .sides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+body .boxes .box .sides div {
+  position: absolute;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-size: 36px;
+  width: 40px;
+}
+body .boxes .box .sides .front {
+  background-color: #ee451a;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-animation: flip 1.5s linear infinite;
+          animation: flip 1.5s linear infinite;
+}
+body .boxes .box .sides .back {
+  background-color: #176d97;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-animation: flip 1.5s linear infinite;
+          animation: flip 1.5s linear infinite;
+}
+body .boxes .box:first-child .sides div {
+  border-radius: 6px 0 0 6px;
+}
+body .boxes .box:last-child .sides div {
+  border-radius: 0 6px 6px 0;
+}
+
+.boxes .box:nth-child(1) .sides div {
+  -webkit-animation-delay: 30ms;
+          animation-delay: 30ms;
+}
+
+.boxes .box:nth-child(2) .sides div {
+  -webkit-animation-delay: 60ms;
+          animation-delay: 60ms;
+}
+
+.boxes .box:nth-child(3) .sides div {
+  -webkit-animation-delay: 90ms;
+          animation-delay: 90ms;
+}
+
+.boxes .box:nth-child(4) .sides div {
+  -webkit-animation-delay: 120ms;
+          animation-delay: 120ms;
+}
+
+.boxes .box:nth-child(5) .sides div {
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+}
+
+.boxes .box:nth-child(6) .sides div {
+  -webkit-animation-delay: 180ms;
+          animation-delay: 180ms;
+}
+
+.boxes .box:nth-child(7) .sides div {
+  -webkit-animation-delay: 210ms;
+          animation-delay: 210ms;
+}
+
+.boxes .box:nth-child(8) .sides div {
+  -webkit-animation-delay: 240ms;
+          animation-delay: 240ms;
+}
+
+.boxes .box:nth-child(9) .sides div {
+  -webkit-animation-delay: 270ms;
+          animation-delay: 270ms;
+}
+
+.boxes .box:nth-child(10) .sides div {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+  20% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+  50% {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  80% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+@keyframes flip {
+  0% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+  20% {
+    -webkit-transform: rotateX(360deg);
+            transform: rotateX(360deg);
+  }
+  50% {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  80% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}

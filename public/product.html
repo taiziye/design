@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            产品页
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="设计清单是个坑爹的网站。">
+        <meta name="keywords" content="设计,产品,科技,智能硬件,坑爹">
+        <meta name="author" content="设计清单">
+        <!-- Loading Bootstrap -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Loading Flat UI -->
+        <link href="css/flat-ui.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/loadinganimate.css" rel="stylesheet">  
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at
+        the end of file. -->
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js">
+            </script>
+            <script src="js/respond.min.js">
+            </script>
+        <![endif]-->
+    </head>
+    
+    <body>    
+        <div id="loading" style="display:none;">
+            <div class="background"></div>
+            <div class='boxes'>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>L</div>
+                  <div class='front'>L</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>O</div>
+                  <div class='front'>O</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>A</div>
+                  <div class='front'>A</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>D</div>
+                  <div class='front'>D</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>I</div>
+                  <div class='front'>I</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>N</div>
+                  <div class='front'>N</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>G</div>
+                  <div class='front'>G</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>.</div>
+                  <div class='front'>.</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>.</div>
+                  <div class='front'>.</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>.</div>
+                  <div class='front'>.</div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <!-- animate end -->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">
+                    设计清单
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-01">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="hot.html">
+                            最热
+                        </a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" action="#" role="search">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" id="navbarInput-01" type="search" placeholder="搜索">
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn">
+                                    <span class="fui-search">
+                                    </span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <!-- /navbar -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <div class="detail">
+                        <h5 id="producttitle">
+                        </h5>
+                        <!-- slide -->
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol id="ol" class="carousel-indicators">
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div id="carl" class="carousel-inner" role="listbox">
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button"
+                        data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+                            </span>
+                            <span class="sr-only">
+                                Previous
+                            </span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button"
+                        data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+                            </span>
+                            <span class="sr-only">
+                                Next
+                            </span>
+                        </a>
+                    </div>
+                    <!-- slide end -->
+                        <div class="description" id="description">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="detail">
+                        <button id="sourcebtn" class="btn btn-inverse">
+                            来源
+                        </button>
+                        <button id="favbtn" class="btn btn-danger">
+                            收藏
+                        </button>
+                    </div>
+                    <div class="detail">
+                        <h5>
+                            猜你喜欢
+                        </h5>
+                        <div class="detail-img" id="guess"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <div class="detail">
+                        <h5>
+                            评论
+                        </h5>
+
+                        <div id="comment"></div>
+                       <div class="comment">
+                            <div class="input-group">
+                                <textarea type="text" class="comment form-control" placeholder="说点什么吧">
+                                </textarea>
+                                <span class="btn  btn-primary">
+                                    发布
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+        <footer>
+            <div class="footer">
+                <p>
+                    浙江大学 508 工作室 出品 &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://in.zju.edu.cn/" target="_blank">
+                        联系我们
+                    </a>
+                </p>
+            </div>
+        </footer>
+        <!-- Load JS here for greater good=============================-->
+        <script src="js/jquery-1.8.3.min.js">
+        </script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js">
+        </script>
+        <script src="js/jquery.ui.touch-punch.min.js">
+        </script>
+        <script src="js/bootstrap.min.js">
+        </script>
+        <script src="js/bootstrap-select.js">
+        </script>
+        <script src="js/bootstrap-switch.js">
+        </script>
+        <script src="js/flatui-checkbox.js">
+        </script>
+        <script src="js/flatui-radio.js">
+        </script>
+        <script src="js/jquery.tagsinput.js">
+        </script>
+        <script src="js/jquery.placeholder.js">
+        </script>
+        <script src="js/loadproduct.js">
+        </script>
+    </body>
+
+</html>

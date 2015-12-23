@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            设计清单
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="设计清单">
+        <meta name="keywords" content="设计,产品,科技,智能硬件">
+        <meta name="author" content="设计清单">
+        <!-- Loading Bootstrap -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Loading Flat UI -->
+        <link href="css/flat-ui.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/loadinganimate.css" rel="stylesheet">        
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at
+        the end of file. -->
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js">
+            </script>
+            <script src="js/respond.min.js">
+            </script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <div id="loading" style="display:none;">
+            <div class="background"></div>
+            <div class='boxes'>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>L</div>
+                  <div class='front'>L</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>O</div>
+                  <div class='front'>O</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>A</div>
+                  <div class='front'>A</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>D</div>
+                  <div class='front'>D</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>I</div>
+                  <div class='front'>I</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>N</div>
+                  <div class='front'>N</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>G</div>
+                  <div class='front'>G</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>.</div>
+                  <div class='front'>.</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>.</div>
+                  <div class='front'>.</div>
+                </div>
+              </div>
+              <div class='box'>
+                <div class='sides'>
+                  <div class='back'>.</div>
+                  <div class='front'>.</div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <!-- animate end -->
+
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand active" href="index.html">
+                    设计清单
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-01">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="hot.html">
+                            最热
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">
+                            产品
+                            <b class="caret">
+                            </b>
+                        </a>
+                        <ul id="menu" class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="map.html">
+                            产品图谱
+                        </a>
+                    </li>
+                </ul>
+                <ul id="login_join" class="navbar-button list-inline">
+                    <li>
+                        <a class="btn btn-primary btn-sm" href="login.html" data-gta="event" data-category="out-top-nav"
+                        data-action="login">
+                            登录
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-danger btn-sm" href="join.html" data-gta="event" data-category="out-top-nav"
+                        data-action="signup">
+                            免费注册
+                        </a>
+                    </li>
+                </ul>
+                <ul id="welcomename" class="navbar-button list-inline">
+                    <li>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <!-- /navbar -->
+        <div id="welcome">
+            <h1>
+                欢迎使用设计清单
+            </h1>
+            <h6>
+                ......找到关于设计、科技、艺术的一切
+            </h6>
+            <div id="big-search">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input class="form-control" id="navbarInput-01" type="search" placeholder="搜索">
+                        <span class="input-group-btn">
+                            <button type="submit" class="btn" id="searchbtn">
+                                <span class="fui-search">
+                                </span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="productlist">
+            </div>
+        </div>
+        <!-- /.container -->
+        <footer>
+            <div class="footer">
+                <p>
+                    浙江大学 508 工作室 出品 &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://in.zju.edu.cn/" target="_blank">
+                        联系我们
+                    </a>
+                </p>
+            </div>
+        </footer>
+        <!-- Load JS here for greater good=============================-->
+        <script src="js/jquery-1.8.3.min.js">
+        </script>
+        <script src="js/jquery-ui-1.10.3.custom.min.js">
+        </script>
+        <script src="js/jquery.ui.touch-punch.min.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.cookie.js" >
+        </script>
+        <script src="js/bootstrap.min.js">
+        </script>
+        <script src="js/bootstrap-select.js">
+        </script>
+        <script src="js/bootstrap-switch.js">
+        </script>
+        <script src="js/bootstrap-dropdown.js">
+        </script>
+        <script src="js/bootstrap-submenu.js">
+        </script>
+        <script src="js/flatui-checkbox.js">
+        </script>
+        <script src="js/flatui-radio.js">
+        </script>
+        <script src="js/jquery.tagsinput.js">
+        </script>
+        <script src="js/jquery.placeholder.js">
+        </script>
+        <script src="js/loadindex.js">
+        </script>
+        </script>
+        <script src="js/search.js">
+        </script>
+    </body>
+
+</html>

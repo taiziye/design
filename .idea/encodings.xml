@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/dao/impl/ProductDaoimpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/ProductDaoTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/get_catalogTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/search_test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/test_Mongo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/test_zhongguancun.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/vert/x/test/Server.java" charset="UTF-8" />
+  </component>
+</project>

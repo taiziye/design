@@ -1,0 +1,307 @@
+body{
+	background-color: #F0F0F0;
+}
+p{
+	letter-spacing:1px;
+}
+h1,h6{
+	letter-spacing:2px;
+text-shadow: 3px 3px 6px #000;
+}
+h2,h3,h4,h5{
+	letter-spacing:2px;
+}
+
+.navbar-default {
+  background-color: #0f151c;
+  box-shadow:0px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #EFEFEF;
+}
+
+.navbar-default .navbar-brand{
+	color: #EFEFEF;
+	margin-left: 30px;
+}
+
+.navbar-default .navbar-brand.active{
+	color: #4AFFDB;
+}
+
+.navbar-nav {
+  margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .navbar-form {
+    margin-left: 40px;
+  }
+
+.navbar-button{
+	margin:10px ;
+	float: right;
+}
+
+
+
+/*
+index
+*/
+
+#welcome {
+	height: 420px;
+	background: url(../a.jpg) no-repeat top;
+	margin-top:0;
+	margin-bottom:30px;
+	text-align:center; 
+	color: #fff;  
+	margin-top: -40px;
+	padding: 50px;
+}
+
+#big-search{
+	max-width: 600px;
+	width: 70%;
+	margin:50px auto;
+}
+.pin{
+	padding: 0;
+	border:0;
+	border-radius:0;
+	box-shadow:0px 1px 3px rgba(0, 0, 0, 0.3);
+	margin-bottom: 30px;
+	  display: block;
+  background-color: #ffffff;
+}
+
+.thumbnail{
+	padding: 0;
+	border:0;
+	border-radius:0;
+
+    max-width: 100%;
+    height: 0;
+    padding-bottom: 60%;
+    overflow: hidden;
+}
+
+.thumbnail img{
+width: 100%;
+margin-bottom: 0;
+}
+
+.thumbnail img:hover{
+	border:2px solid #fff;
+}
+
+.caption{
+	padding: 2px 15px;
+	color: #fff;
+}
+
+.caption a{
+	color: #000;
+}
+
+.caption a:hover{
+	color: #16a085;
+}
+
+.caption a p {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.nav .dropdown-toggle .caret {
+	border-top-color: white;
+}
+.navbar-nav > li > .dropdown-menu{
+	min-width: 140%;
+	margin-top:0 !important;
+	background-color: #0f151c;
+	font-size: 16px;
+}
+.dropdown-menu li > a{
+	color: white;
+}
+.dropdown-menu li > a:hover, .dropdown-menu li > a:active, .dropdown-menu li > a:focus{
+	background-color: #0f151c;
+	color: #1abc9c;
+}
+
+.dropdown-menu ul{
+	min-width: 100%;
+}
+
+.dropdown-submenu > .dropdown-menu {
+	transition: 0;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+	visibility: visible;
+	opacity: 1;
+	top: 0px;
+	left: 100%;
+	background-color: #0f151c;
+	color: #1abc9c;
+	font-size: 16px;
+	border-left: 3px solid #1abc9c;
+	transition: 0;
+}
+.caretleft {
+	display: inline-block;
+	border: 6px solid transparent;
+	border-left: 6px solid #F0F0F0;
+	left: 80%;
+	margin-top: 5px;
+	width: 0;
+	height: 0;
+	position: absolute;
+	content: ' '
+}
+
+.dropdown-menu>li:hover>a>.caretleft {
+	border-left: 6px solid #1abc9c;
+}
+
+/*
+产品页
+*/
+.detail {
+	padding: 25px;
+	border:0;
+	border-radius:0;
+	box-shadow:0px 1px 3px rgba(0, 0, 0, 0.3);
+	margin-bottom: 30px;
+	  display: block;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  background-color: #ffffff;
+}
+
+.detail-img {
+	margin-top: 30px;
+}
+
+ img{
+width: 100%;
+margin-bottom: 15px;
+}
+
+.description{
+	padding-top: 10px;
+}
+
+.username{
+	float: left;
+	max-width: 350px;
+}
+
+ .time{
+ 	float: right;
+ }
+
+ .comment{
+ 	padding: 15px;
+ 	margin-bottom: 30px;
+ 	clear: both;
+ }
+
+ .comment .form-control{
+ 	min-height: 100px;
+ 	max-height: 300px;
+ 	width: 100%;
+ 	max-width: 537px;
+ 	min-width: 350px;
+ 	margin-bottom: 15px;
+ }
+
+ #sourcebtn {
+ 	margin-right: 20px;
+ }
+ #favbtn{
+ 	margin-right: 20px;
+ }
+
+ @media (max-width: 768px) {
+ #recommend {
+    display: none;
+  }
+}
+
+
+
+/*
+login
+*/
+
+
+.login {
+  color: #000;
+  margin-bottom: 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.login-win {
+	border-radius: 15px; 
+	max-width: 800px;
+	min-height: 473px;
+	margin:0px auto;
+    background-color: #fff;
+    padding: 20px 220px 20px 220px;
+}
+
+.login h3{
+	color: #000;
+	padding-top: 10px;
+	margin-bottom: 50px;
+}
+
+.form-horizontal  .control-label{
+	font-size: 16px;
+	line-height:30px;
+	padding-left: 8px;
+	padding-right: 3px;
+}
+
+.login .btn{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.login-link {
+	color: #000;
+	margin-top: 12px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.checkjoinpic{
+	float: right;
+	margin-right: -30px;
+	margin-top: -35px;
+	width: 5%;
+}
+
+/*.login-link.left {
+	float: left;
+}
+
+.login-link.right {
+	float: right;
+}
+*/
+
+.line{
+	width: 100%;
+	height: 20px;
+	border-bottom: 1px solid #bbb;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
